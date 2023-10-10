@@ -23,7 +23,9 @@ const Contact = () => {
                 src={images.email}
                 alt="email"
               />
-              <a href="mailto:danielndu93@gmail.com" className="p-text">
+              <a
+                href="mailto:danielndu93@gmail.com"
+                className="p-text text-xs md:text-xl">
                 danielndu93@gmail.com
               </a>
             </div>
