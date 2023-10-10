@@ -39,7 +39,9 @@ const home = () => {
               </span>
             </Link>
 
-            <a href="/public/NdubuezedanielCV.pdf" download="NdubuezedanielCV">
+            <a
+              href="/public/NdubuezedanielResume.pdf"
+              download="NdubuezedanielResume">
               <button
                 type="button"
                 className="text-white sm:font-bold w-fit px-3 sm:px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-500 to-yellow-800 cursor-pointer hover:scale-110 duration-300">
