@@ -47,7 +47,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-black flex flex-col  lg:flex-row  text-white text-xl w-full h-full py-6 justify-center items-center mx-auto ">
+    <footer className="bg-black flex flex-col  lg:flex-row text-white w-full h-full py-6 sm:px-8 justify-center items-center mx-auto ">
       <div className="flex gap-6">
         {socials.map(({ id, child, href }) => (
           <a target="_blank" key={id} href={href}>
@@ -55,12 +55,14 @@ const Footer = () => {
           </a>
         ))}
       </div>
-      <div className="px-16">
-        <h1 className="text-6xl py-8 font-vibes">Ndubueze Daniel</h1>
+      <div className="px-8">
+        <h1 className="text-3xl sm:text-4xl py-4 font-vibes">
+          Ndubueze Daniel
+        </h1>
       </div>
       <div>
-        <p className=" p-5 sm:p-0 ml-6 text-[14px]">
-          &copy; Copyright{" "}
+        <p className="p-2 sm:p-0 ml-6 text-[16px] sm:text-[20px]">
+          &copy; Copyright {""}
           <span className="text-yellow-200 font-bold">
             Osuagwu Daniel Ndubueze {""}
           </span>

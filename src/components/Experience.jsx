@@ -64,18 +64,18 @@ const Experience = () => {
       name="experience"
       className="bg-gradient-to-b from-gray-800 to-black p-6 w-full h-full">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-        <div className="mb-16">
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+        <div className="mb-16 px-6 sm:px-0">
+          <p className="text-2xl sm:text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Skills & Experience
           </p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-16 text-center py-12 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-16 text-center py-12 px-6 sm:px-0 ">
           {techSkills.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg + ${style}`}>
               <img className="w-20 mx-auto" src={src} alt="src" />
-              <p className="mt-4">{title}</p>
+              <p className="mt-4 text-sm sm:text-xl">{title}</p>
             </div>
           ))}
         </div>

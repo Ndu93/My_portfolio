@@ -7,13 +7,13 @@ const home = () => {
   return (
     <div
       name="home"
-      className=" w-full bg-gradient-to-b from-black via-black to-gray-800 pt-[50px] md:pt-8 p-6 pb-[15rem] sm:pb-0">
-      <div className="max-w-screen-lg w-full mx-auto flex flex-col  gap-12 items-center justify-center pb-12 px-4 md:flex-row pt-[110px]">
+      className="w-full bg-gradient-to-b from-black via-black to-gray-800 pt-[50px] md:pt-8 p-6 pb-[15rem] sm:pb-0">
+      <div className="max-w-screen-lg w-full mx-auto flex flex-col gap-12 items-center justify-center pb-12 px-4 md:flex-row pt-[110px]">
         <div className="flex flex-col justify-center h-full max-w">
           <h2 className="text-2xl sm:text-7xl font-bold text-white">
-            I'm a <span className="text-yellow-200">Frontend Developer.</span>
+            I am a <span className="text-yellow-200">Frontend Developer.</span>
           </h2>
-          <p className="text-xl w-full text-start text-white py-4 max-w-md leading-7">
+          <p className="text-sm sm:text-xl w-full text-start text-white py-4 max-w-md leading-7">
             I am a passionate and results-driven Frontend Developer with a deep
             appreciation for crafting exceptional user experiences through web
             technologies. I thrive on the intersection of design and technology,
@@ -32,7 +32,7 @@ const home = () => {
               to="portfolio"
               smooth
               duration={500}
-              className="group text-white font-bold w-fit px-6 mr-10 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-500 to-yellow-800 hover:scale-110 duration-300 cursor-pointer">
+              className="group text-white sm:font-bold w-fit px-3 sm:px-6 mr-10 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-500 to-yellow-800 hover:scale-110 duration-300 cursor-pointer">
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight className="ml-1" />
@@ -42,7 +42,7 @@ const home = () => {
             <a href="/public/NdubuezedanielCV.pdf" download="NdubuezedanielCV">
               <button
                 type="button"
-                className="group text-white font-bold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-500 to-yellow-800 cursor-pointer hover:scale-110 duration-300">
+                className="text-white sm:font-bold w-fit px-3 sm:px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-500 to-yellow-800 cursor-pointer hover:scale-110 duration-300">
                 Hire Me
               </button>
             </a>
