@@ -59,7 +59,7 @@ const Footer = () => {
         <h1 className="text-4xl py-8 font-vibes">Ndubueze Daniel</h1>
       </div>
       <div>
-        <p className="ml-6">
+        <p className=" p-5 sm:p-0 ml-6 text-[14px]">
           &copy; Copyright{" "}
           <span className="text-yellow-200 font-bold">
             Osuagwu Daniel Ndubueze {""}
