@@ -56,7 +56,7 @@ const Footer = () => {
         ))}
       </div>
       <div className="px-16">
-        <h1 className="text-4xl py-8 font-vibes">Ndubueze Daniel</h1>
+        <h1 className="text-6xl py-8 font-vibes">Ndubueze Daniel</h1>
       </div>
       <div>
         <p className=" p-5 sm:p-0 ml-6 text-[14px]">
