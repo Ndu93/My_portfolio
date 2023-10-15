@@ -7,13 +7,13 @@ const home = () => {
   return (
     <div
       name="home"
-      className="w-full bg-gradient-to-b from-black via-black to-gray-800 pt-[50px] md:pt-8 p-6 pb-[10rem] sm:pb-0">
+      className="w-full bg-gradient-to-b from-black via-black to-gray-800 pt-[50px] md:pt-8 px-6 pb-[12rem] sm:pb-0 lg:pb-0">
       <div className="max-w-screen-lg w-full mx-auto flex flex-col gap-12 items-center justify-center pb-12 px-4 md:flex-row pt-[110px]">
         <div className="flex flex-col justify-center h-full max-w">
           <h2 className="text-2xl sm:text-7xl font-bold text-white">
             I am a <span className="text-yellow-200">Frontend Developer.</span>
           </h2>
-          <p className="text-sm sm:text-xl w-full text-start text-white py-4 max-w-md leading-7">
+          <p className="text-sm sm:text-xl lg:text-justify w-full text-start text-white py-4 max-w-md leading-7">
             I am a passionate and results-driven Frontend Developer with a deep
             appreciation for crafting exceptional user experiences through web
             technologies. I thrive on the intersection of design and technology,
