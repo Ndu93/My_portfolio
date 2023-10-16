@@ -4,8 +4,8 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
-import About from "./components/about";
-import Home from "./components/home";
+import About from "./components/About";
+import Home from "./components/Home";
 
 function App() {
   return (
